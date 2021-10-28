@@ -1,7 +1,7 @@
 const os = process
 global.DeveloperMode = 'false' //true Or false
 global.owner = ['62815155895731', '6281515589573'] || os.env["6281515589573"]// Put your number here
-global.linkGC = ['http://bit.ly/Grupgabutbotv1']
+global.linkGC = ['http://bit.ly/Grup']
 global.mods = ['62815155895731', '6281515589573'] // Want some help?
 global.prems = ['62815155895731', '6281515589573'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
