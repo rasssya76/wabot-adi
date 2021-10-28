@@ -5,7 +5,7 @@ let handler = async function (m, { text, usedPrefix }) {
   let user = global.DATABASE._data.users[m.sender]
   let pantek = 'https://i.ibb.co/8z7zqXv/IMG-20210618-WA0001.jpg'
   if (user.registered === true) throw `Anda sudah terdaftar\nMau daftar ulang? ${usedPrefix}unreg <SN|SERIAL NUMBER>`
-  if (!Reg.test(text)) throw `Format salah!\nContoh: *${usedPrefix}daftar AdiOfficial|18*`
+  if (!Reg.test(text)) throw `Format salah!\nContoh: *${usedPrefix}daftar RamaGans|18*`
   let [_, name, splitter, age] = text.match(Reg)
   let totalreg = Object.keys(global.DATABASE._data.users).length
   if (!name) throw 'Nama tidak boleh kosong!'
